@@ -45,6 +45,12 @@
   font-size: 4rem;
 }
 
+h2.title {
+  margin: 1rem;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
 .title,
 .description {
   text-align: center;
