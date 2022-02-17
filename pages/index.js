@@ -20,14 +20,18 @@ export default function Home() {
         The purpose of this site is to have one spot for players to share their UO Razor Scripts with each other.
         </p>
         <div className={styles.grid}>
-          <Link href="/servers" className={styles.card}>
+          <Link href="/servers" passHref>
+            <div className={styles.card}>
             <h2>Browse by Server &rarr;</h2>
             <p>Since each server has the potential of a different syntax or style, select the server you play.</p>
+            </div>
           </Link>
 
-          <Link href="/share" className={styles.card}>
+          <Link href="/share" passHref>
+            <div className={styles.card}>
             <h2>Share &rarr;</h2>
             <p>Got something working that you would like to share? Add it directly to the site and help others</p>
+            </div>
           </Link>
         </div>
       </main>

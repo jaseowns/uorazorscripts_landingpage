@@ -96,6 +96,7 @@ h2.title {
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  cursor: pointer;
 }
 
 .card h2 {
