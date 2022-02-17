@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Share() {
@@ -17,7 +16,7 @@ export default function Share() {
         </h1>
         <h2 className={styles.title}>Select a server:  <a href="https://outlands.uorazorscripts.com/script/new">UO Outlands</a></h2>
         <p className={styles.description}>
-        At the time of this launch, right now the only server supported is Outlands.
+          At the time of this launch, right now the only server supported is Outlands.
         </p>
       </main>
 
