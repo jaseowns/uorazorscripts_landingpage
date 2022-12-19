@@ -16,7 +16,7 @@ export default function Share() {
         <h1 className={styles.title}>
 			Showing Support / Donate
         </h1>
-        <h2 className={styles.title}>Select a service:  <a href="https://www.patreon.com/jaseowns">Patreon</a> | <a href="https://www.youtube.com/@Jaseowns/membership">YouTube</a> | <a href="https://paypal.me/jaseowns">PayPal</a></h2>
+        <h2 className={styles.title}>Select a service:  <a href="https://www.patreon.com/jaseowns">Patreon</a> | <a href="https://www.youtube.com/jaseowns/join">YouTube</a> | <a href="https://paypal.me/jaseowns">PayPal</a></h2>
         <p className={styles.description}>
           Thank you for showing your support.  Donations are not required but much appreciated.
         </p>
