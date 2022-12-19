@@ -8,6 +8,7 @@ export default function About() {
         <title>About UO Razor Scripts</title>
         <meta name="description" content="About UO Razor Scripts" />
         <link rel="icon" href="/favicon.ico" />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3223044608738585" crossOrigin="anonymous"></script>
       </Head>
 
       <main className={styles.main}>

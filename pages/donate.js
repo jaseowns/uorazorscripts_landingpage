@@ -6,7 +6,7 @@ export default function Share() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Sharing a Script</title>
+        <title>Donate</title>
         <meta name="description" content="Sharing a Script" />
         <link rel="icon" href="/favicon.ico" />
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3223044608738585" crossOrigin="anonymous"></script>
@@ -14,11 +14,11 @@ export default function Share() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Sharing a Script
+			Showing Support / Donate
         </h1>
-        <h2 className={styles.title}>Select a server:  <a href="https://outlands.uorazorscripts.com/script/new">UO Outlands</a></h2>
+        <h2 className={styles.title}>Select a service:  <a href="https://www.patreon.com/jaseowns">Patreon</a> | <a href="https://www.youtube.com/@Jaseowns/membership">YouTube</a> | <a href="https://paypal.me/jaseowns">PayPal</a></h2>
         <p className={styles.description}>
-          At the time of this launch, right now the only server supported is Outlands.
+          Thank you for showing your support.  Donations are not required but much appreciated.
         </p>
 		<p className={styles.description}>
 			<Link href="/">Back Home</Link>

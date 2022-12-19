@@ -9,6 +9,7 @@ export default function Home() {
         <title>UO Razor Scripts</title>
         <meta name="description" content="The purpose of this site is to have one spot for players to share their UO Razor Scripts with each other." />
         <link rel="icon" href="/favicon.ico" />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3223044608738585" crossOrigin="anonymous"></script>
       </Head>
 
       <main className={styles.main}>
@@ -31,6 +32,13 @@ export default function Home() {
             <div className={styles.card}>
             <h2>Share &rarr;</h2>
             <p>Got something working that you would like to share? Add it directly to the site and help others</p>
+            </div>
+          </Link>
+
+          <Link href="/donate" passHref>
+            <div className={styles.card}>
+            <h2>Donate &rarr;</h2>
+            <p>Want to help support this project? Donate to the creator to help keep the site running</p>
             </div>
           </Link>
         </div>
