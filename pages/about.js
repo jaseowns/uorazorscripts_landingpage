@@ -15,9 +15,14 @@ export default function About() {
         <h1 className={styles.title}>
           About UO Razor Scripts
         </h1>
-        <h2 className={styles.title}>Select a server:  <a href="https://outlands.uorazorscripts.com/">UO Outlands</a></h2>
+        <h2 className={styles.title}>
+            Select a server:  
+            <a href="https://outlands.uorazorscripts.com/">UO Outlands</a> | 
+            <a href="https://unchained.uorazorscripts.com/">UO Unchained</a> 
+          </h2>
         <p className={styles.description}>
-        At the time of this launch, right now the only server supported is Outlands but the idea will be to have a seperate database for each server.
+          We launched this website with the first brand being <a href="https://outlands.uorazorscripts.com/history">Outlands on January 30th 2022</a>, we launched our second server for <a href="https://unchained.uorazorscripts.com/history">UO Unchained May 1st 2023</a>.  
+          If you want your server on our list, make sure to reach out to Jaseowns on Discord.
         </p>
       </main>
 

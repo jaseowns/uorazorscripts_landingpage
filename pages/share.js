@@ -16,9 +16,13 @@ export default function Share() {
         <h1 className={styles.title}>
           Sharing a Script
         </h1>
-        <h2 className={styles.title}>Select a server:  <a href="https://outlands.uorazorscripts.com/script/new">UO Outlands</a></h2>
+        <h2 className={styles.title}>Select a server:  
+          <a href="https://outlands.uorazorscripts.com/script/new">UO Outlands</a> | 
+          <a href="https://unchained.uorazorscripts.com/">UO Unchained</a> 
+        </h2>
         <p className={styles.description}>
-          At the time of this launch, right now the only server supported is Outlands.
+          We launched this website with the first brand being <a href="https://outlands.uorazorscripts.com/history">Outlands on January 30th 2022</a>, we launched our second server for <a href="https://unchained.uorazorscripts.com/history">UO Unchained May 1st 2023</a>.  
+          If you want your server on our list, make sure to reach out to Jaseowns on Discord.
         </p>
 		<p className={styles.description}>
 			<Link href="/">Back Home</Link>

@@ -16,7 +16,11 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <Link href="/about">Ultima Online Razor Scripts!</Link>
         </h1>
-        <h2 className={styles.title}>Select a server:  <a href="https://outlands.uorazorscripts.com">UO Outlands</a></h2>
+        <h2 className={styles.title}>
+          Select a server:
+           <a href="https://outlands.uorazorscripts.com">UO Outlands</a> | 
+            <a href="https://unchained.uorazorscripts.com/">UO Unchained</a> 
+          </h2>
         <p className={styles.description}>
         The purpose of this site is to have one spot for players to share their UO Razor Scripts with each other.
         </p>
