@@ -8,8 +8,11 @@ export default function Share() {
       <Head>
         <title>Donate</title>
         <meta name="description" content="Sharing a Script" />
-        <link rel="icon" href="/favicon.ico" />
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3223044608738585" crossOrigin="anonymous"></script>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+		    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3223044608738585" crossOrigin="anonymous"></script>
       </Head>
 
       <main className={styles.main}>
@@ -26,7 +29,7 @@ export default function Share() {
       </main>
 
       <footer className={styles.footer}>
-         UORazorScripts.com is provided by <code className={styles.code}><a href="https://uo.jaseowns.com/">Jaseowns</a></code> and aims to be a collaboration of UO Razor Scripts by the players for the players.{' '}
+         UORazorScripts.com is provided by <code className={styles.code}><a href="https://jaseowns.com/">Jaseowns</a></code> and aims to be a collaboration of UO Razor Scripts by the players for the players.{' '}
       </footer>
     </div>
   )
